@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+header>p {
+    font-size: 6.5vw;
+    color: #e1e1bc;
+}
+
+header:hover {
+    opacity: 1;
+}
+
+.navegacion {
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(180, 107, 248);
+    border: 10px black;
+    width: 230px;
+    height: 1400px;
+}
+
+.navegacion:hover {
+    background-color: rgb(247, 198, 247);
+}
+
+p {
+    font-size: 16px;
+    color: #ccffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.efectosnav {
+    border: 10px rgb(248, 178, 233) solid;
+    padding: 30px;
+    background: linear-gradient(to bottom, #c679bd 0%, #ccffff 100%);
+    border-radius: 30px;
+    box-shadow: 3px 3px#4b6f61;
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    justify-content: left;
+    font-weight: bold;
+}
+
+.efectosnav:hover {
+    background: linear-gradient(to bottom, #ffff99 0%, #ccffff 100%);
+    color: red;
+}
+
+body {
+    background-color: rgb(222, 152, 236);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 1100px;
+    padding-left: 7%;
+}
+
+.hijocentral {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 95%;
+    padding: 7%;
+    padding-left: 7%;
+    padding-top: 3%;
+    padding-right: 3%;
+    background-color: #aae4f6;
+    border-style: solid;
+    margin-top: 9%;
+}
+
+.hijocentral1 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.hijocentral1A {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    color: black;
+    font-size: 16px;
+    margin-right: 4%;
+    border-style: solid;
+    line-height: 1, 9;
+    padding: 26px;
+    margin-top: 2%;
+    color: rgb(15, 17, 112);
+}
+
+.hijocentral1B {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    color: black;
+    font-size: 16px;
+    margin-right: 4%;
+    border-style: solid;
+    margin-top: 2%;
+    line-height: 1, 9;
+    padding: 26px;
+    color: rgb(15, 17, 112);
+}
+
+
+.pie-pagina {
+    width: 100%;
+    background-color: #303233;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 100px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+
+.pie-pagina .grupo-2 {
+    background-color: #343638;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 16px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+td,
+th {
+    border: 2px solid #2b007c;
+    text-align: left;
+    padding: 19px;
+}
+
+tr:nth-child(even) {
+    background-color: #f0a9d5;
+}
+
+.programming {
+    background: rgb(81, 46, 209);
+    color: white;
+    text-align: center;
+}
+
+.programming1 {
+    background: rgb(148, 130, 214);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.systems {
+    background: rgb(112, 190, 209);
+    color: rgb(5, 6, 6);
+    text-align: center;
+}
+
+.business {
+    background: rgb(209, 227, 103);
+    color: rgb(2, 3, 3);
+    text-align: center;
+}
+
+
+.language {
+    background: rgb(242, 175, 208);
+    color: rgb(10, 12, 12);
+    text-align: center;
+}
+
+.lunes {
+    background: rgb(126, 238, 225);
+    color: rgb(10, 12, 12);
+    text-align: center;
+}
+
+.martes {
+    background: rgb(126, 238, 225);
+    color: rgb(10, 12, 12);
+    text-align: center;
+}
+
+.miercoles {
+    background: rgb(126, 238, 225);
+    color: rgb(10, 12, 12);
+    text-align: center;
+}
+
+.jueves {
+    background: rgb(126, 238, 225);
+    color: rgb(10, 12, 12);
+    text-align: center;
+}
+
+.hijocentralcentral {
+    margin: 10%;
+}
